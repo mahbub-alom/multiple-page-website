@@ -99,3 +99,33 @@ header{
     cursor: pointer;
 }
 
+/* grid section start is here  */
+
+.single-item-parent{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 60px;
+    grid-column-gap: 20px;
+}
+.single-item{
+    height: 250px;
+    margin-top: 30px;
+    border: 2px solid gray;
+}
+.single-item div{
+    display: flex;
+    color: gray;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.single-item img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.single-item:hover img{
+    transform: scale(1.1);
+    border-radius: 5px;
+}
+
