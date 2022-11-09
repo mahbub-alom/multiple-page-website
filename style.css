@@ -8,6 +8,8 @@ nav{
     justify-content: space-between;
     background-color: #1A1244;
     padding: 10px 150px;
+    position: sticky;
+    top: 0;
 }
 nav ul{
     display: flex;
@@ -32,6 +34,9 @@ nav div{
     color: white;
     font-size: 20px;
 }
+
+/* header section work is here  */
+
 header{
     background-image: url(image/website\ banner.jpg);
     padding: 200px 0;
@@ -213,5 +218,5 @@ footer{
     margin: 10px 0;
 }
 .footer-third-item p:last-child{
-    margin-top: 50px;
+    margin-top: 70px;
 }

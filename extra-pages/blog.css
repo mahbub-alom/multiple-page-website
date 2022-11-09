@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* nav work start here  */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1A1244;
+    padding: 10px 150px;
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style-type: none;
+    margin: 10px 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+nav ul li a:hover{
+    background-color: black;
+    color: red;
+}
+nav div{
+    color: white;
+    font-size: 20px;
+}
+
+/* nav work stop here  */
+
+.tittle{
+    font-size: 25px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    color: green;
+}
+.tittle span{
+    color: red;
+}
+.container-head{
+    width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.blog-parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.blog-image{
+    height: 400px;
+}
+.blog-image img{
+    height: 100%;
+    width: 100%;
+}
+.blog-text{
+    margin: 0 0 15px 15px;
+}
+.blog-text span{
+    color: red;
+    margin:10px 0 20px 0;
+    display: inline-block;
+}
+.blog-text h3{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.blog-text p{
+    margin: 0 0 10px 0;
+}
+.blog-text a{
+    text-decoration: none;
+}
+.single-container{
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 5px;
+}
+
+/* footer section work is here  */
+
+
+footer{
+    background-color: #5f1e69;
+    color: white;
+}
+
+.footer-head{
+    width: 900px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    grid-gap: 50px;
+}
+.footer-first-item h3{
+    font-size: 25px;
+    margin: 30px 0;
+    padding: 30px 0;
+}
+.footer-first-item:first-child p{
+    margin-bottom: 20px;
+}
+.footer-second-item h3{
+    font-size: 25px;
+    margin: 30px 0 ;
+    padding: 30px 0;
+}
+.footer-second-item p a{
+    text-decoration: none;
+    color: white;
+}
+.footer-second-item p{
+    margin: 10px 0;
+}
+.footer-third-item div{
+    font-size: 25px;
+    margin: 30px 0 ;
+    padding: 30px 0;
+}
+.footer-third-item a{
+    color: white;
+    margin-right: 10px;
+    background-color: #1A1244;
+    padding: 10px;
+    border-radius: 5px;
+}
+.footer-third-item p{
+    margin: 10px 0;
+}
+.footer-third-item p:last-child{
+    margin-top: 70px;
+}
